@@ -6,7 +6,10 @@ public class EmployeeOne {
 		System.out.println("add");
 
 	}
-	
+	private void mul() {
+		System.out.println("mul");
+
+	}
 	
 	public static void main(String[] args) {
 		 EmployeeOne E = new EmployeeOne();
