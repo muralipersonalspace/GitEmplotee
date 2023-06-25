@@ -6,11 +6,15 @@ public class EmployeeOne {
 		System.out.println("add");
 
 	}
-	
+	private void sub() {
+		System.out.println("sub");
+
+	}
 	
 	public static void main(String[] args) {
 		 EmployeeOne E = new EmployeeOne();
 		 E.add();
+		 E.sub();
 	}
 
 }
