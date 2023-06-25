@@ -13,11 +13,15 @@ public class EmployeeOne {
 		private void mul() {
 			System.out.println("mul");
 	}
+		private void div() {
+			System.out.println("div");
+		}
 	
 	public static void main(String[] args) {
 		 EmployeeOne E = new EmployeeOne();
 		 E.add();
 		 E.sub();
+		 E.div();
 	}
 
 }
